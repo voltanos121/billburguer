@@ -52,3 +52,7 @@ No rodapé, clique em **Área administrativa** e entre com o e-mail/senha criado
 - Os preços do cardápio foram preservados conforme as imagens enviadas. Confirme os valores com a loja antes de divulgar.
 - As avaliações são públicas e não verificam compra. Para reduzir spam em produção, considere CAPTCHA/Turnstile e limitação de frequência.
 - O SQL também migra a regra antiga de avaliações: novas avaliações devem ter de 1 a 5 estrelas. A constraint é criada como `NOT VALID` para preservar registros antigos, caso exista algum com nota zero. Se tiver certeza de que não há notas antigas inválidas, valide depois com `alter table public.reviews validate constraint reviews_rating_range;`.
+
+
+## SEO e Google
+Consulte `SEO-INSTRUCOES.txt`. O projeto inclui `robots.txt`, `sitemap.xml`, `favicon.svg`, metadados sociais e dados estruturados. Após publicar, envie `sitemap.xml` no Google Search Console.

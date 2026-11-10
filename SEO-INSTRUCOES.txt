@@ -1,0 +1,39 @@
+BILL BURGER — PACOTE DE SEO PARA billburguer.netlify.app
+
+O que foi adicionado:
+- Meta title e meta description orientados a buscas locais e aos produtos do cardápio.
+- URL canônica.
+- Open Graph e Twitter Cards para compartilhamento.
+- Dados estruturados Schema.org do tipo Restaurant.
+- sitemap.xml para informar a página principal aos mecanismos de busca.
+- robots.txt permitindo rastreamento e apontando para o sitemap.
+- favicon.svg.
+
+PUBLICAÇÃO NO NETLIFY
+1. Extraia o ZIP.
+2. Publique a pasta bill-burger-site inteira no mesmo site Netlify (novo deploy).
+3. Não publique apenas o index.html: os arquivos sitemap.xml, robots.txt, favicon.svg e a pasta assets precisam estar na raiz publicada.
+4. Depois do deploy, teste no navegador:
+   https://billburguer.netlify.app/robots.txt
+   https://billburguer.netlify.app/sitemap.xml
+   https://billburguer.netlify.app/favicon.svg
+
+GOOGLE SEARCH CONSOLE
+1. Entre em https://search.google.com/search-console/
+2. Adicione/verifique a propriedade com Prefixo do URL:
+   https://billburguer.netlify.app/
+3. Em Sitemaps, envie:
+   sitemap.xml
+4. Use Inspeção de URL para:
+   https://billburguer.netlify.app/
+   e clique em Solicitar indexação.
+5. Acompanhe os relatórios de indexação e melhorias no Search Console.
+
+IMPORTANTE
+- Sitemap e solicitação de indexação não garantem inclusão nem posição no Google.
+- O Google pode levar dias ou semanas para rastrear e processar mudanças.
+- Dados estruturados ajudam os mecanismos de busca a entender a página, mas não garantem resultado especial.
+- A localização Silva Jardim - RJ foi utilizada com base no endereço de referência que já constava na configuração do projeto. Confirme se esse ainda é o endereço/área de atendimento atual.
+- O número do JSON-LD vem do WhatsApp que já constava na configuração original. Se o número mudou, atualize-o no JSON-LD e no painel.
+- Não foi incluído horário de funcionamento, faixa de preço nem endereço completo no schema porque esses dados precisam ser confirmados antes de serem divulgados como informação estruturada.
+- A meta keywords é apenas complementar; o Google não usa essa tag para determinar ranking. O foco real é conteúdo útil, informações corretas, experiência mobile e reputação local.
