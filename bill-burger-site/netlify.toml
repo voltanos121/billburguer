@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-  command = ""
-
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Content-Type = "text/javascript; charset=utf-8"

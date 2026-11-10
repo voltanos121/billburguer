@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://billburguer.netlify.app/sitemap.xml
